@@ -7,3 +7,5 @@ variable "ami" {}
 variable "key_pair" {}
 variable "subnet_id" {}
 variable "vpc_security_group_ids" {}
+variable "root_volume_type" {}
+variable "root_volume_size" {}
