@@ -16,7 +16,7 @@
       "source_ami": "{{user `source_ami_id`}}",
       "instance_type": "{{user `instance_type`}}",
       "ssh_username": "{{user `ssh_username`}}",
-      "ami_name": "prdjyrsh"
+      "ami_name": "prdawsjyrsh"
     }],
   "provisioners": [{
     "type": "shell",
