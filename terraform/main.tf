@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "${var.aws_secret_key}"
 }
 
-resource "aws_instance" "prdawsjyrsh" {
+resource "aws_instance" "prdawsjyrsh1" {
   count                  = 1
   instance_type          = "${var.instance_type}"
   ami                    = "${var.ami}"
