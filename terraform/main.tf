@@ -10,7 +10,7 @@ resource "aws_instance" "prdawsjyrsh0" {
   ami                    = "${var.ami}"
   tags {
     Department           = "Jinghua"
-    Name                 = "prdawsjyrsh0${count.index+1}"
+    Name                 = "${format("prdawsjy%02d", count.index + 1)}"
   }
   key_name               = "${var.key_pair}"
   subnet_id              = "${var.subnet_id}"
